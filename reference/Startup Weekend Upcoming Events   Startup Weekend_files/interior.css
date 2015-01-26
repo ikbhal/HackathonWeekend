@@ -1,0 +1,182 @@
+#top {
+height: 419;
+}
+#pic {
+width: 135px;
+height: 177px;
+margin-left: -55px;
+bottom: -60px;
+background: url("../images/images.png") -1520px -60px;
+}
+#topContent {
+width: 960px;
+height: 421px;
+}
+#subNav {
+position: absolute;
+width: 960px;
+height: 30px;
+left: 0px;
+top: 225px;
+text-align: center;
+margin:20px 0;
+padding:0;
+}
+#subNav li {
+display:inline-block;
+margin-right: 8px;
+}
+#subNav li:first-child a{
+background: none !important;
+}
+#subNav li a {
+text-decoration: none;
+color: #534d02;
+font-size: 17px;
+font-weight: bold;
+background: url("../images/bullet.png") no-repeat 0 0;
+padding-left: 20px;
+padding-top: 5px;
+}
+#subNav li a:hover {
+color: #ffffff;
+}
+
+/* Alignment adjustments for sponsors page */
+.page-id-14057 #subNav li a {
+  font-size: 1em;
+}
+
+.navLine {
+background: url("../images/images.png") -810px -250px;
+width: 765px;
+height: 1px;
+position: absolute;
+left: 98px;
+}
+#topLine {
+top: 230px;
+}
+#bottomLine {
+top: 280px;
+}
+/*-- Added by Anca adding google pages subnavigation--*/
+
+#googlesubNav {
+position: absolute;
+width: 700px;
+height: 30px;
+left: 0px;
+top: 3px;
+text-align: center;
+margin:30px 0;
+padding:0;
+}
+#googlesubNav li {
+display:inline-block;
+margin-right: 5px;
+}
+#googlesubNav li:first-child a{
+background: none !important;
+}
+#googlesubNav li a {
+text-decoration: none;
+color: #e97300;
+font-size: 17px;
+font-weight: bold;
+background: url("../images/gbullet.png") no-repeat 0 0;
+padding-left: 20px;
+padding-top: 7px;
+}
+#googlesubNav li a:hover {
+color: #4AB6D6;
+}
+#googlesubNav .current_page_item a {
+color: #4AB6D6 !important;
+}
+.googlenavLine {
+background: url("../images/images.png") -810px -250px;
+width: 700px;
+height: 1px;
+position: absolute;
+left: 0;
+}
+#googletopLine {
+top: 30px;
+}
+#googlebottomLine {
+top: 60px;
+}
+
+#wrapper {
+width: 960px;
+position: relative;
+margin: 0 auto;
+}
+#content {
+width: 700px;
+float: left;
+margin: 40px auto;
+max-width: 700px;
+overflow: hidden;
+}
+.sidebar {
+width: 200px;
+float:right;
+border-left: solid 1px #e3e3e3;
+margin: 40px 0;
+padding-left: 40px;
+font-family: Arial, Helvetica, sans-serif;
+}
+.sidebar ul, .sidebar li {
+margin: 0;
+padding: 0;
+list-style-type:none;
+}
+.sidebar h2 {
+color: #e7730c;
+text-transform: uppercase;
+font: bold 20px Arial, Helvetica, sans-serif;
+}
+.sidebar h4 {
+font: bold 16px Arial, Helvetica, sans-serif;
+color: #3e3e3b;
+line-height: 70%;
+margin-bottom:5px;
+}
+.sidebar p {
+margin: 0px;
+}
+.left {
+width: 60%;
+height: 800px;
+float: left;
+}
+.big {
+font-size: 28px;
+line-height: 150%;
+color: #524501;
+}
+.team {
+min-height: 256px;
+clear:both;
+margin: 20px 0;
+}
+.bio {
+width: 520px;
+float: left;
+text-align: left;
+margin: 0 0 20px 0;
+}
+.col, .wpcf7 {
+float: left;
+width: 50%;
+}
+li.categories {
+font-size: 18px;
+line-height: 120%;
+}
+/*-- added by Anca - removing child navigation links off the top navbar--*/
+#subNav li li a, ul.children {
+display:none;
+}

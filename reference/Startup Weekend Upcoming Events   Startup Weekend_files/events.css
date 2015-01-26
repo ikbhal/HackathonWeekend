@@ -1,0 +1,117 @@
+#top {
+height: 500px;
+}
+#topContent {
+height: 421px;
+}
+#eventsHeader {
+background: url("../images/images.png") no-repeat 0 -350px;
+width: 765px;
+height: 166px;
+position: absolute;
+left: 98px;
+top: 220px;
+}
+#wrapper {
+  width: 100%;
+margin: 0 auto;
+}
+#content {
+width: 96%;
+max-width: 100%;
+float:none !important;
+margin: 25px auto 0 auto;
+padding: 0;
+}
+
+#pic {
+  z-index: 100;
+}
+
+#bookpic {
+  z-index: 100;
+}
+/* EVENTS MAP */
+#map_sidebar ul {
+margin: 0;
+padding: 10px 0 0 0;
+height: 420px; overflow: auto;
+}
+#map_canvas { 
+height: 514px; 
+width: 70%; 
+float: left; 
+margin-top: 20px;
+}
+#map_sidebar ul {
+margin: 0;
+padding: 10px 10px 0 0;
+height: 416px; overflow: auto;
+}
+#map_canvas { 
+height: 514px; 
+width: 80%; 
+float: left; 
+margin-top: 20px;
+}
+#map_sidebar {
+position: absolute; 
+right: 0; 
+width: 260px; 
+float: left; 
+overflow: auto; 
+margin: 32px 20px 0 20px; 
+background: #fff;
+padding-left: 20px;
+z-index: 10;
+height: 514px;
+display:block;
+}
+.scrollfuzztop {
+  height: 20px;
+  z-index: 100;position: relative; margin-top: -20px; 
+  top: 105px;
+  background: url(../images/scroll-fuzz.png);
+}
+.lat, .lng, .site, .date, #months, .mapItems {
+display:none;
+}
+.mapItems {
+cursor:pointer; 
+list-style-type: none; 
+clear:both; 
+height: 44px; 
+display:block; 
+line-height: 100%;
+}
+.displayDate {
+float: left; 
+width: 44px; 
+height: 44px; 
+display: block; 
+background: url("../images/upcomingDot.png") no-repeat 0 0; 
+color: #fff; 
+text-align: center; 
+padding: 9px 0;
+margin-right: 8px;
+font-weight: bold;
+text-shadow: #fb8536 0 1px 0;
+}
+
+.displayDate p {
+	margin: 3px 0 1px;
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 11px;
+	line-height: 87%;
+}
+#map_sidebar .title {display: block; padding-top: 15px;}
+#map_sidebar .next, #map_sidebar .prev {display: block; width: 32px; height: 32px; background: url("../images/arrowSprite.png") no-repeat;float: left;}
+#map_sidebar h1 {margin: 10px 0;}
+#map_sidebar .next {background-position: -32px 0;}
+#map_sidebar .next:hover {background-position: -32px -32px;}
+#map_sidebar .prev {background-position: 0 0;}
+#map_sidebar .prev:hover {background-position: 0 -32px;}
+#map_sidebar .gray {color: #ccc;}
+#map_sidebar #identifier {width: 150px; float: left; text-align: center; line-height: 100%;text-transform: uppercase; display: block; padding-top: 8px; font-weight: bold;}
+#map_sidebar .month_nav {height: 40px;}

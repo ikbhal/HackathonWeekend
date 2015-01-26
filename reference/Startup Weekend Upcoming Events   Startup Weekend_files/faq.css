@@ -1,0 +1,10 @@
+.answer {
+	margin: 10px 0;
+	color: #626155;
+	margin-left: 20px;
+}
+.faq {
+list-style-type: none;
+cursor: pointer;
+color: #4AB6D6;
+}

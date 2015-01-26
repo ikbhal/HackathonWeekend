@@ -1,0 +1,19 @@
+#top {
+height: 419px;
+}
+#topContent {
+height: 421px;
+}
+#content {
+width: 650px;
+}
+.col {
+float: left;
+width: 310px;
+}
+.col strong {
+color: #3e3e3b;
+}
+.leftMargin {
+margin-left: 30px;
+}

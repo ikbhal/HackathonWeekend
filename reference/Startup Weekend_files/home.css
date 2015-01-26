@@ -1,0 +1,192 @@
+/* @override http://www.cremalab.com/startupweekend/wp-content/themes/Startup%20Weekend%20v2.0/css/home.css */
+
+#top {
+height: 756px;
+}
+#pic {
+margin-left: -370px;
+background: url("../images/images.png") no-repeat -770px -370px;
+bottom: -140px;
+}
+#bookpic {
+background: url("../images/images.png") no-repeat -374px -562px;
+margin-right: -110px;
+top: 509px;
+}
+#topContent {
+width: 960px;
+height: 500px;
+margin: 0 auto;
+}
+#noTalk {
+position: absolute;
+left: 50%;
+margin-left: -460px;
+top: 230px;
+width: 920px;
+height: 32px;
+display:block;
+text-align: center;
+}
+#noTalk h1 {
+color: #534d02;
+font-size: 60px;
+line-height: 5px;
+margin: 0;
+padding: 0;
+font-weight: normal;
+}
+.white {
+color: #ffffff;
+}
+#tag {
+position: absolute;
+left: 50%;
+margin-left: -460px;
+top: 350px;
+width: 920px;
+height: 45px;
+text-align:center;
+color: #534d02;
+font-size: 18px;
+line-height: 150%;
+}
+#tag a {
+color: #ffffff;
+text-decoration: none;
+}
+#tag a:hover {
+color: #e7730c;
+}
+#highlight {
+position: absolute;
+background: url("../images/images.png") no-repeat 0 -520px;
+width: 368px;
+height: 218px;
+display:block;
+top: 453px;
+right: 0px;
+}
+.featuredEvent {
+width: 250px;
+height: 150px;
+position: absolute;
+top: 30px;
+left: 50px;
+text-align: center;
+color: #534d02;
+font-size: 16px;
+overflow:hidden;
+}
+.featuredEvent .rWrapper {
+width: 210px;
+overflow:auto;
+margin: 0 20px;
+position: absolute;
+min-height: 150px;
+height: 150px;
+top: 0px;
+overflow:hidden;
+}
+.featuredEvent .rWrapper ul {
+list-style-type: none;
+width: 9999px;
+position: absolute;
+}
+.featuredEvent ul li {
+  display:block;
+  float:left;
+  height: 150px;
+  width: 210px;
+  position: relative;
+}
+.featuredEvent h4 {
+color: #e7730c;
+font-size: 24px;
+line-height: 10px;
+margin: 25px 0 10px 0;
+}
+.featuredEvent p {
+margin: 0;
+}
+.featuredEvent p {
+line-height: 100%;
+font-size: 14px;
+margin: 0;
+}
+.registerBtn {
+position: absolute;
+display:block;
+width: 80px;
+height: 31px;
+background: url("../images/images.png") no-repeat -1420px -370px;
+text-decoration: none;
+left: 0px;
+bottom: 20px;
+margin: 15px 0 0 22px;
+}
+.registerBtn:hover {
+background-position: -1420px -410px;
+text-decoration: none;
+}
+.previous, .next {
+cursor: pointer;
+position: absolute;
+top: 120px;
+width: 18px;
+height: 18px;
+}
+.previous:hover {
+background-position: 0 -32px;
+}
+.next:hover {
+background-position: -32px -32px;
+}
+.previous {
+	display: block; width: 32px; height: 32px; background: url("../images/arrowSprite.png") no-repeat;float: left;
+left: 30px;
+}
+.next {
+display: block; width: 32px; height: 32px; background: url("../images/arrowSprite.png") no-repeat -32px 0;float: right;
+right: 40px;
+}
+.items li h4 {
+margin-top: 0px;
+}
+.viewAll {
+position: absolute;
+display:block;
+width: 80px;
+height: 31px;
+background: url("../images/images.png") no-repeat -1505px -370px;
+text-decoration: none;
+right: 0px;
+bottom: 20px;
+margin: 15px 22px 0 0;
+}
+.viewAll:hover {
+background-position: -1505px -410px;
+text-decoration: none;
+}
+.book {
+top: 584px !important;
+}
+
+#content {
+width: 960px;
+margin: 160px auto 40px;
+}
+.entry-content {
+clear:both;
+}
+.entry-content p {
+text-align: center;
+}
+.entry-content p a img {
+opacity: 0.3;
+filter:alpha("opacity=30");
+}
+.entry-content p a img:hover {
+opacity: 1;
+filter:alpha("opacity=100");
+}

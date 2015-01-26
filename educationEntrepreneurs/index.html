@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<!-- saved from url=(0037)http://hackathonweekend.org/ -->
+<html lang="en" style="" class=" js flexbox no-touch rgba multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssreflections csstransforms no-csstransforms3d csstransitions localstorage svg"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  
+
+  <meta charset="UTF-8">
+<script type="text/javascript" async="" src="./assets//ga.js"></script><script async="" src="./assets///cloudflare.min.js"></script><script type="text/javascript">
+//<![CDATA[
+try{if (!window.CloudFlare) {var CloudFlare=[{verbose:0,p:0,byc:0,owlid:"cf",bag2:1,mirage2:0,oracle:0,paths:{cloudflare:"/cdn-cgi/nexp/dok3v=1613a3a185/"},atok:"b58c9896b7d433590850c9c5a1274e41",petok:"440295dcf9c8c688d0b9d1c5df1affc4f2c5c3b0-1422188958-86400",zone:"educationentrepreneurs.co",rocket:"0",apps:{"ga_key":{"ua":"UA-9791737-61","ga_bs":"2"}}}];!function(a,b){a=document.createElement("script"),b=document.getElementsByTagName("script")[0],a.async=!0,a.src="//ajax.cloudflare.com/cdn-cgi/nexp/dok3v=919620257c/cloudflare.min.js",b.parentNode.insertBefore(a,b)}()}}catch(e){};
+//]]>
+</script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"beacon-3.newrelic.com","errorBeacon":"bam.nr-data.net","licenseKey":"f0a9ab32e2","applicationID":"5092604","transactionName":"IAoPRENfVA9VSxpdXwAKDF9FWU4GH0lAU1wKBk5AUFddEB9KXV5H","queueTime":4,"applicationTime":31,"agent":"js-agent.newrelic.com/nr-476.min.js"}</script>
+<script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o?o:e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({QJf3ax:[function(t,e){function n(t){function e(e,n,a){t&&t(e,n,a),a||(a={});for(var c=u(e),f=c.length,s=i(a,o,r),p=0;f>p;p++)c[p].apply(s,n);return s}function a(t,e){f[t]=u(t).concat(e)}function u(t){return f[t]||[]}function c(){return n(e)}var f={};return{on:a,emit:e,create:c,listeners:u,_events:f}}function r(){return{}}var o="nr@context",i=t("gos");e.exports=n()},{gos:"7eSDFh"}],ee:[function(t,e){e.exports=t("QJf3ax")},{}],gos:[function(t,e){e.exports=t("7eSDFh")},{}],"7eSDFh":[function(t,e){function n(t,e,n){if(r.call(t,e))return t[e];var o=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:o,writable:!0,enumerable:!1}),o}catch(i){}return t[e]=o,o}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],D5DuLP:[function(t,e){function n(t,e,n){return r.listeners(t).length?r.emit(t,e,n):(o[t]||(o[t]=[]),void o[t].push(e))}var r=t("ee").create(),o={};e.exports=n,n.ee=r,r.q=o},{ee:"QJf3ax"}],handle:[function(t,e){e.exports=t("D5DuLP")},{}],XL7HBI:[function(t,e){function n(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:i(t,o,function(){return r++})}var r=1,o="nr@id",i=t("gos");e.exports=n},{gos:"7eSDFh"}],id:[function(t,e){e.exports=t("XL7HBI")},{}],loader:[function(t,e){e.exports=t("G9z0Bl")},{}],G9z0Bl:[function(t,e){function n(){var t=l.info=NREUM.info;if(t&&t.agent&&t.licenseKey&&t.applicationID&&c&&c.body){l.proto="https"===p.split(":")[0]||t.sslForHttp?"https://":"http://",a("mark",["onload",i()]);var e=c.createElement("script");e.src=l.proto+t.agent,c.body.appendChild(e)}}function r(){"complete"===c.readyState&&o()}function o(){a("mark",["domContent",i()])}function i(){return(new Date).getTime()}var a=t("handle"),u=window,c=u.document,f="addEventListener",s="attachEvent",p=(""+location).split("?")[0],l=e.exports={offset:i(),origin:p,features:{}};c[f]?(c[f]("DOMContentLoaded",o,!1),u[f]("load",n,!1)):(c[s]("onreadystatechange",r),u[s]("onload",n)),a("mark",["firstbyte",i()])},{handle:"D5DuLP"}]},{},["G9z0Bl"]);</script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hackathon Weekend</title>
+
+  <link rel="icon" type="image/png" href="http://assets.up.co/sites/5435805c33bda80d320004a2/pages/5435805c33bda80d320004a4/files/ee-favicon.ico">
+
+  <script async="" src="./assets///modernizr.min.js" type="text/javascript"></script>
+  <link href="./assets///all.css" media="screen" rel="stylesheet" type="text/css">
+  <link href="./assets///application.css" media="screen" rel="stylesheet" type="text/css">
+
+  
+<script type="text/javascript">
+/* <![CDATA[ */
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-9791737-61']);
+_gaq.push(['_trackPageview']);
+
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+
+(function(b){(function(a){"__CF"in b&&"DJS"in b.__CF?b.__CF.DJS.push(a):"addEventListener"in b?b.addEventListener("load",a,!1):b.attachEvent("onload",a)})(function(){"FB"in b&&"Event"in FB&&"subscribe"in FB.Event&&(FB.Event.subscribe("edge.create",function(a){_gaq.push(["_trackSocial","facebook","like",a])}),FB.Event.subscribe("edge.remove",function(a){_gaq.push(["_trackSocial","facebook","unlike",a])}),FB.Event.subscribe("message.send",function(a){_gaq.push(["_trackSocial","facebook","send",a])}));"twttr"in b&&"events"in twttr&&"bind"in twttr.events&&twttr.events.bind("tweet",function(a){if(a){var b;if(a.target&&a.target.nodeName=="IFRAME")a:{if(a=a.target.src){a=a.split("#")[0].match(/[^?=&]+=([^&]*)?/g);b=0;for(var c;c=a[b];++b)if(c.indexOf("url")===0){b=unescape(c.split("=")[1]);break a}}b=void 0}_gaq.push(["_trackSocial","twitter","tweet",b])}})})})(window);
+/* ]]> */
+</script><style type="text/css">.cf-hidden { display: none; } .cf-invisible { visibility: hidden; }</style>
+<meta class="foundation-mq-small"><meta class="foundation-mq-medium"><meta class="foundation-mq-large"><style></style><script type="text/javascript" charset="UTF-8" src="./assets///common.js"></script><script type="text/javascript" charset="UTF-8" src="./assets///util.js"></script><script type="text/javascript" charset="UTF-8" src="./assets///stats.js"></script></head>
+<body class="index page-loaded" gram_dict="true">
+  <header id="header">
+    <div id="logo-container"><a class="logo-link" href="./assets///Education Entrepreneurs.html">
+      <!--<img class="logo-sw" src="./assets///logo-yellow.svg" alt="Hackathon Weekend">-->
+      <span style="font-weight:bold;color:black;font-size:2em                                                                                                                                                                                                                                                                                                                                                                                                                                                                   "> Hackathon Weekend</span>
+    </a></div>
+
+    <div class="hide-for-small menu-container">
+        <ul id="menu" class="inline-list">
+            <li>
+              <a href="http://hackathonweekend.org/about">
+                <span data-hover="ABOUT">
+                  ABOUT
+                </span>
+              </a>
+          </li>
+            <li>
+              <a href="http://hackathonweekend.org/organize">
+                <span data-hover="ORGANIZE">
+                  ORGANIZE
+                </span>
+              </a>
+            </li>
+            <li>
+              <a href="http://hackathonweekend.org/attend">
+                <span data-hover="ATTEND">
+                  ATTEND
+                </span>
+              </a>
+            </li>
+            <li>
+              <a href="http://hackathonweekend.org/#" data-reveal-id="subscribe-modal">
+                <span data-hover="SUBSCRIBE">
+                  SUBSCRIBE
+                </span>
+              </a>
+            </li>
+            <li>
+              <a href="http://hackathonweekend.org/blog">
+                <span data-hover="BLOG">
+                  BLOG
+                </span>
+              </a>
+            </li>
+        </ul>
+      </div>
+    <div id="social-container">
+      <div class="header-logos">
+          <ul id="social-network" class="inline-list">
+              <li><a target="_blank" href="https://www.facebook.com/pages/HackathonWeekend/1596544137234907">
+                <div class="facebook"></div>
+              </a></li>
+            <li><a target="_blank" href="http://twitter.com/hackathonweek">
+                <div class="twitter"></div>
+              </a></li>
+          </ul>
+      </div>
+    </div>
+    <div class="show-for-small menu-container">
+      <div id="menu-mobile">
+          <div class="lines"></div>
+          <div class="lines"></div>
+          <div class="lines"></div>
+        </div>
+    </div>
+
+</header>
+
+
+  
+    <section>
+      <div id="main-image-content">
+        <div id="main-image">
+          <div id="main-image-child">
+            <div class="row">
+              <div class="large-12 medium-12 small-12 columns">
+                <div id="main-title">
+                  <h1>Use Hackathon to Improve Life</h1>
+                  <div id="contain-buttons">
+                    <div class="row">
+                      <div class="large-4 large-offset-2 medium-6 medium-offset-0 small-12 small-offset-0  columns">
+                        <a href="http://hackathonweekend.org/organize" class="green-button">
+                          ORGANIZE AN EVENT
+                        </a>
+                      </div>
+                      <div class="large-4 medium-6 small-12 columns">
+                        <a href="http://hackathonweekend.org/attend" class="green-button">
+                          Attend an Event
+                        </a>
+                      </div>
+                     </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="row">
+        <div class="large-12 large-offset-0 medium-12 medium-offset-0 small-8 small-offset-2 columns">
+          <div id="contain-shadow"></div>
+          <div id="contain-thumbs">
+            <div class="row">
+              <div class="large-4 medium-4 columns columns-custom-right">
+                <div class="img-thumbs-container">
+                  <a href="http://player.vimeo.com/video/53366381" target="_blank">
+                    <img src="./assets///image-1.jpg" alt="">
+                    <div class="title-thumbnail">
+                      Watch Event Trailer
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="large-4 medium-4 columns columns-custom-middle">
+                <div class="img-thumbs-container">
+                  <a href="http://hackathonweekend.org/attend">
+                    <img src="./assets///image-2.jpg" alt="">
+                    <div class="title-thumbnail">
+                      Find an Event
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="large-4 medium-4 columns columns-custom-left">
+                <div class="img-thumbs-container">
+                  <a href="http://hackathonweekend.org/blog">
+                    <img src="./assets///image-3.jpg" alt="">
+                    <div class="title-thumbnail">
+                      Read Our Blog
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="row">
+        <div class="large-10 large-offset-1 medium-10 medium-offset-1 small-12 medium-offset-0">
+          <div id="description">
+            <div id="description-title">
+<h3><span id="docs-internal-guid-1364864e-bc5e-dd34-a92b-a15f8ff7a4f7" data-mce-mark="1"><span id="docs-internal-guid-1364864e-bc5e-dd34-a92b-a15f8ff7a4f7" data-mce-mark="1">A Global Movement to Improve Life </span></span></h3>
+</div>
+<div id="description-text">
+<p><span id="docs-internal-guid-1364864e-bc5d-043f-6705-813788211d40"><span id="docs-internal-guid-1364864e-bc5d-043f-6705-813788211d40">
+    
+    Hackathon Weekend was founded on the belife that Hackathon is a powerful force to solve problems. We are a global initiative that presents unique opportunities for anyone interested in solving problem, can participate in Hackathon. We started in Bangalore. We are planning to conduct Hackathon Weekend in every City. Hackathon is great place to meet all kind of people from beginner to expert from different background to solve problem of yours or others for betterment of life. </span></span></p>
+</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section>
+      <div id="newsletter">
+        <div class="row">
+          <div class="large-6 medium-6 small-12 columns">
+            <h4>
+              <span id="docs-internal-guid-1364864e-bc5e-551e-4492-c9803f20f56e"><span>Don't Miss Out!</span></span>
+            </h4>
+            <p>
+            </p><p><span id="docs-internal-guid-1364864e-bc5e-3b0f-ae32-a3d8bb308182"><span>Subscribe to our newsletter to receive exclusive updates and program offerings</span></span></p>
+            <p></p>
+          </div>
+          <div class="large-6 medium-6 small-12 columns">
+            <div class="row">
+              <form action="http://hackathonweekend.us10.list-manage.com/subscribe/post?
+                            u=9df14e22d7eb9157682278eff&id=e52d1cffb0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="newsletter-form" target="_blank" novalidate="">
+
+                <div class="large-8 medium-6 columns">
+                  <input id="email-newsletter" placeholder="Email Address" type="email" value="" name="EMAIL" class="required email">
+                </div>
+                <div class="large-4 medium-6 columns">
+                  <input id="button-newsletter" type="submit" value="Subscribe Now">
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="row">
+        <div class="small-12 large-centered">
+          <div id="education-title">
+            <h3>Learn About Our Core Event: Hackathon Weekend</h3>
+          </div>
+        </div>
+      </div>
+
+      <div class="small-12 medium-12 large-centered">
+        <div class="row">
+          <div id="education-container">
+            <div class="large-4 medium-4 small-12 columns">
+              <div class="img-education">
+                <img src="./assets///lamp.png" alt="lamp">
+              </div>
+              <div class="title-education">
+                <h4>Friday - Online</h4>
+              </div>
+              <div class="text-education">
+                <p>
+                </p><p><span id="docs-internal-guid-1364864e-bc5f-ee46-27e6-b4dc5be0f5c8"><span>Pitch your idea, vote for your favorites, form teams, and get to work. Not pitching? Not a problem. Someone needs you on their team!</span></span></p>
+                <p></p>
+              </div>
+            </div>
+            <div class="large-4 medium-4 small-12 columns">
+              <div class="img-education">
+                <img src="./assets///wrench.png" alt="wrench">
+              </div>
+              <div class="title-education">
+                <h4>Saturday - Build</h4>
+              </div>
+              <div class="text-education">
+                <p>
+                </p><p><span id="docs-internal-guid-1364864e-bc5f-5c84-10c3-759237cf0045"><span>Work with your team to further solve problem and try to come up a complete one case solution. Work. Eat. Talk And repeat.</span></span></p>
+                <p></p>
+              </div>
+            </div>
+            <div class="large-4 medium-4 small-12 columns">
+              <div class="img-education">
+                <img src="./assets///misile.png" alt="misile">
+              </div>
+              <div class="title-education">
+                <h4>Sunday - Online Launch</h4>
+              </div>
+              <div class="text-education">
+                <p>
+                </p><p><span id="docs-internal-guid-1364864e-bc5f-36cc-271f-59cb3fb2c56c"><span>It’s showtime! Put final touches on your deck and present your case to the Judges. Show them why you’re the best solution and how it impact others.</span></span></p>
+                <p></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+  
+
+  <footer id="footer">
+  <div id="footer-bottom">
+
+    <div class="row with-border">
+
+      <div class="large-4 small-12 columns">
+        <div class="footer-container-mini">
+          <div class="footer-label">
+            <h4 class="text-center">Funded by</h4>
+          </div>
+
+          <hr class="row-spacer">
+
+          <div class="footer-sponser">
+            <a href="http://www.gatesfoundation.org/" target="_blank">
+              <img src="./assets///bill-melinda.png" alt="">
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="large-4 small-12 columns">
+        <div class="footer-container-mini">
+
+          <div class="footer-label">
+            <h4 class="text-center">Connect with us</h4>
+          </div>
+
+          <hr class="row-spacer">
+
+          <div class="footer-logos">
+            <ul class="inline-list">
+              <li>
+                <a target="_blank" href="https://www.facebook.com/pages/HackathonWeekend/1596544137234907">
+                  <span class="icon" data-icon="s"></span>
+                </a>
+              </li>
+              <li>
+                <a target="_blank" href="https://twitter.com/hackathonweek">
+                  <span class="icon" data-icon="u"></span>
+                </a>
+              </li>
+              <li>
+                <a target="_blank" href="mailto:contact@hackathonweekend.org">
+                  <span class="icon" data-icon="o"></span>
+                </a>
+              </li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="large-4 small-12 columns">
+        <div class="footer-container-mini">
+          <div class="footer-label">
+            <h4 class="text-center">Attend an Event</h4>
+          </div>
+
+          <hr class="row-spacer">
+            <a class="green-button" href="http://hackathonweekend.org/attend">View Events</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</footer>
+
+  
+<!-- Include the Google Maps API before the plugins file -->
+<script src="./assets///js"></script><script src="./assets///main.js"></script>
+
+<script async="" src="./assets///app.min.js" type="text/javascript"></script>
+
+<!-- Salesfusion -->
+<script type="text/javascript" language="JavaScript" src="./assets///frs-app-96573.js"></script>
+<script type="text/javascript">frt(96573);</script>
+
+
+  
+  
+  
+
+  <div id="subscribe-modal" class="reveal-modal">
+  <div class="row">
+    <div class="small-10 columns small-centered text-centered">
+      <h1>Stay Informed</h1>
+      <p class="light-grey">There’s A LOT of great things happening in Hackathon Weekend and we don’t want you to miss out on any of them!</p>
+    </div>
+  </div>
+
+  <hr class="section-spacer">
+
+  <div class="row">
+    <div class="small-9 columns small-centered">
+
+      <form action="http://startupweekend.us1.list-manage.com/subscribe/post?u=77bee8d6876e3fd1aa815badb&id=1221ca26b0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="">
+
+        <input type="hidden" value"index"="" name="RSOURCE">
+
+        <div class="row"><div class="small-12 columns">
+          <div class="vanity-text-field">
+            <input type="email" name="EMAIL" id="subscribe-modal-signup-email" value="" placeholder="Email Address" class="form-text">
+            <label for="subscribe-modal-signup-email"><span class="mail-green-icon"></span></label>
+          </div>
+        </div></div>
+
+        <div class="row"><div class="small-12 columns">
+          <input type="submit" class="submit-button button radius large form-submit take-up-width" value="Sign Up">
+        </div></div>
+
+      </form>
+
+    </div>
+  </div>
+
+  <a class="close-reveal-modal">×</a>
+</div>
+
+<script type="text/javascript">
+/* <![CDATA[ */
+(function(){try{var s,a,i,j,r,c,l=document.getElementsByTagName("a"),t=document.createElement("textarea");for(i=0;l.length-i;i++){try{a=l[i].getAttribute("href");if(a&&a.indexOf("/cdn-cgi/l/email-protection") > -1  && (a.length > 28)){s='';j=27+ 1 + a.indexOf("/cdn-cgi/l/email-protection");if (a.length > j) {r=parseInt(a.substr(j,2),16);for(j+=2;a.length>j&&a.substr(j,1)!='X';j+=2){c=parseInt(a.substr(j,2),16)^r;s+=String.fromCharCode(c);}j+=1;s+=a.substr(j,a.length-j);}t.innerHTML=s.replace(/</g,"&lt;").replace(/>/g,"&gt;");l[i].setAttribute("href","mailto:"+t.value);}}catch(e){}}}catch(e){}})();
+/* ]]> */
+</script>
+
+
+<script src="./assets///nr-476.min.js"></script><script type="text/javascript" src="./assets///f0a9ab32e2"></script></body><div class="gr-context gr-dict gr-context-loader gr-dict-freemium" style="display: none;"><span class="gr-triangle"></span><div class="gr-placeholder"></div><a href="http://www.grammarly.com/?utm_source=dict&utm_medium=link&utm_campaign=chrome_plg" target="_blank" class="gr-hint-settings"></a><strong class="gr-title"></strong><div class="gr-dict-content"></div></div><div class="b-freemium-editor" style="display: none;"><div class="b-freemium-editor-back"></div><iframe class="gr-freemium-ifr"></iframe></div></html>

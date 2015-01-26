@@ -1,0 +1,401 @@
+/*
+Theme Name: Startup Weekend
+Theme URI: http://startupweekend.org/
+Description: Designed exclusively for the kind folks at the Startup Weekend.
+Author: Cremalab
+Author URI: http://cremalab.com/
+Version: 2.0 
+Tags:
+License:
+License URI:
+*/
+html, body {
+margin: 0 !important;
+padding: 0 !important;
+}
+body {
+background: #ffffff;
+width: 100%;
+height: 100%;
+margin: 0;
+padding: 0;
+min-width: 960px;
+color: #524501;
+font: 15px Arial, Helvetica, sans-serif;
+line-height: 170%;
+}
+p {
+color: #626155;
+}
+img {
+border: none;
+}
+h1, h2, h3, h4 {
+color: #e7730c;
+font-family: Arial, Helvetica, sans-serif;
+}
+h3 {
+font-size: 20px;
+}
+h1, h2, h3, h4, h5, h6 {
+font-weight: normal;
+}
+h1, h4 {
+font-size: 18px;
+}
+a:link {
+color: #4ab6d6;
+text-decoration: none;
+}
+a:visited {
+color: #2c697b;
+text-decoration: none;
+}
+a:hover, a:active {
+color: #3d91aa;
+text-decoration: underline;
+}
+.current_page_item a {
+color: #ffffff !important;
+}
+.widget.widget_html_javascript_adder {
+    list-style: none outside none;
+}
+#top {
+background: #57c0dc url("./images/homeBg.jpg") repeat-x 0 0;
+width: 100%;
+display: block;
+position: relative;
+min-width: 960px;
+}
+#grass {
+width: 100%;
+height: 50px;
+position: absolute;
+bottom: 0px;
+left: 0px;
+background: url("./images/images.png") repeat-x 0 0;
+}
+#pic {
+position: absolute;
+width: 587px;
+height: 441px;
+left: 50%;
+display: block;
+}
+#bookpic {
+position: absolute;
+width: 198px;
+height: 246px;
+display: block;
+right: 0;
+}
+#topContent {
+margin: 0 auto;
+position: relative;
+}
+#logo {
+position: absolute;
+left: 0px;
+top: 22px;
+width: 266px;
+height: 107px;
+display: block;
+text-decoration: none;
+background: url("./images/images.png") no-repeat 0px -60px;
+}
+.global {
+list-style-type: none;
+margin: 0;
+padding: 0;
+}
+.connect {
+position: relative;
+display:inline-block;
+width: 26px;
+height: 25px;
+background: url("./images/images.png") no-repeat;
+float: right;
+margin: 22px 0px 20px 3px;
+}
+#fb {
+background-position: -270px -60px;
+}
+#tw {
+background-position: -270px -90px;
+}
+#fl {
+background-position:-270px -120px;
+}
+#li {
+background-position: -300px -60px;
+}
+#gplus {
+background-position: -300px -90px;
+}
+.globalLinks {
+position: absolute;
+display: block;
+list-style-type: none;
+background: url("./images/images.png") no-repeat;
+bottom: -3px;
+left: 0px;
+}
+.gn {
+background: url("./images/images.png") no-repeat -860px -60px;
+width: 2px;
+position: absolute;
+top: 0px;
+overflow: visible;
+}
+#ab {
+height:180px;
+left: 330px;
+}
+#fe {
+left: 445px;
+height: 110px;
+}
+#or {
+left: 645px;
+height: 160px;
+}
+#about {
+background-position: 0px -170px;
+width: 134px;
+height: 63px;
+margin-left: -66px;
+}
+#about:hover, #about.active {
+background-position: 0px -238px;
+}
+#findEvent {
+background-position: -140px -170px;
+width: 200px;
+height: 70px;
+margin-left: -100px;
+}
+#findEvent:hover, #findEvent.active {
+background-position: -140px -243px;
+}
+#findCity {
+background-position: -350px -170px;
+width: 221px;
+height: 80px;
+margin-left: -126px;
+}
+#findCity:hover, #findCity.active {
+background-position: -350px -255px;
+}
+#blog {
+position: absolute;
+background-position: -580px -170px;
+width: 105px;
+left: 726px;
+height: 55px;
+top: 71px;
+}
+#blog:hover, #blog.active {
+background-position:-580px -230px;
+}
+#sponsor {
+position: absolute;
+background-position: -695px -170px;
+width: 110px;
+left: 826px;
+height: 58px;
+top: 101px;
+}
+#sponsor:hover, #sponsor.active {
+background-position: -695px -233px;
+}
+#footer {
+background-color: #efefef;
+width: 100%;
+height: 300px;
+clear:both;
+position: relative;
+padding-top: 20px;
+font-size: 14px;
+}
+#footerContent {
+width: 960px;
+margin: 0 auto;
+position: relative;
+}
+#footerContent p {
+margin:0;
+}
+#footerContent hr {
+margin-top: 40px;
+}
+#twitFeed {
+width: 648px;
+height: 139px;
+position: absolute;
+right: 0px;
+top: 0px;
+background: url("./images/images.png") no-repeat -865px -60px;
+}
+.rotatingtweet{
+width:550px; 
+float:right; 
+margin:10px;
+}
+#copyright {
+width: 500px;
+float:left;
+text-align: left;
+font-size: 12px;
+}
+#design {
+float: right;
+width: 400px;
+text-align: right;
+font-size: 12px;
+}
+#design a {
+color: #e7730c;
+}
+#contact h3 {
+font-size: 18px;
+}
+.nocomments, .tb_footer, .tb_photo, .tb_infolink, .tb_twitterlogo {
+display: none !important;
+}
+.tb_tweet, .tb_tweetlist {
+border: none !important;
+}
+.tb_tweet {
+margin-bottom: 40px;
+width: 520px;
+height: 119px;
+display: block;
+}
+.tb_tweet-info {
+font-size: 12px;
+}
+.tb_header {
+width: 40px !important;
+float: right !important;
+z-index: +1;
+}
+.tb_tweetlist {
+height: 119px;
+position:absolute;
+width: 520px;
+}
+.book {
+position: absolute;
+right: 0;
+margin-right: -117px;
+width: 109px;
+height: 50px;
+background: url("./images/images.png") no-repeat -1420px -450px;
+text-decoration: none;
+}
+.book:hover {
+background-position: -1420px -500px;
+text-decoration: none;
+}
+#contact h3 {
+margin: 5px 0;
+}
+#date {
+position: relative;
+float: left;
+width: 71px;
+height: 71px;
+margin: 0 20px 0 0;
+color: #ffffff;
+background: url("./images/images.png") no-repeat -810px -260px;
+font-size: 16px;
+}
+.month {
+position: absolute;
+width: 50px;
+height: 20px;
+top: 10px;
+left: 10px;
+text-align: center;
+text-transform: uppercase;
+}
+.day {
+position: absolute;
+bottom: 20px;
+left: 10px;
+width: 50px;
+height: 20px;
+text-align: center;
+font-size: 28px;
+font-weight: bold;
+}
+.post h2.entry-title {
+height: 71px;
+color:#504a02;
+}
+.sticky{
+  position: fixed;
+  top: 0;
+  width: 580px;
+  display: block;
+  float: none;
+  background-color: white;
+}
+.rss {
+background: url("./images/rss_icon.gif") no-repeat 0 0;
+display: block;
+width: 52px;
+height: 16px;
+float: left;
+}
+.col {
+width: 50%;
+float: left;
+}
+/*-- Added by Anca Oct. 27, 2011--*/
+#googleHeader {
+position: absolute;
+top: 238px;
+left: 50%;
+margin-left: -500px;
+width: 1008px;
+height: 97px;
+background: url("./images/googlePage.png") no-repeat ;
+}
+#msftHeader {
+position: absolute;
+top: 238px;
+left: 50%;
+margin-left: -500px;
+width: 1008px;
+height: 97px;
+background: url("./images/msftPage.png") no-repeat ;
+}
+/*-- Adding newsletter side page button --*/
+#newsbutton
+      {
+        background:transparent url("./images/newsbutton.png") no-repeat scroll 0px 0px;
+        height:170px;
+        left:0;
+        position:fixed;
+        top:250px;
+        width:40px;
+        z-index:999;
+      }
+      div#newsbutton:hover
+      {
+        background-position:-41px 0px;
+      }
+      #newsbutton a
+      {
+        display:block;
+        height:170px;
+        width:40px;
+      }
+.alignright{
+  float:right;
+}
+.widget.widget_html_javascript_adder {
+    list-style: none outside none;
+}

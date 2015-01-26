@@ -1,0 +1,63 @@
+#guide-menu {
+width: 200px;
+float:right;
+border-left: solid 1px #e3e3e3;
+margin: 0;
+margin-top:40px;
+padding-left: 40px;
+}
+
+.sidebar_guide {
+width: 200px;
+float:right;
+font-family: Arial, Helvetica, sans-serif;
+}
+.sidebar_guide h3 {
+font: bold 16px Arial, Helvetica, sans-serif;
+color: #e7730c;
+line-height: 70%;
+margin-bottom:5px;
+}
+.sidebar_guide p {
+margin: 0px;
+}
+.sidebar_guide ul, .sidebar_guide li {
+margin: 0;
+padding: 0;
+list-style-type: none;
+}
+li.current-menu-item > a:first-child{
+color:#534D02 !important;
+font-weight: 600;
+}
+.sidebar_guide li li a,
+li.current-menu-item a {
+color: #4197AF !important;
+margin: 0;
+padding-left: 15px;
+}
+.sidebar_guide li li li a {
+color: #357C8F;
+margin: 0;
+padding-left: 30px;
+}
+/* added by Anca 8/19/11 */
+#guideHeader {
+position: absolute;
+top: 238px;
+left: 50%;
+margin-left: -450px;
+width: 864px;
+height: 97px;
+background: url("../images/orgguide.png") no-repeat ;
+}
+#facheader {
+position: absolute;
+top: 238px;
+left: 50%;
+margin-left: -450px;
+width: 864px;
+height: 97px;
+background: url("../images/facguide.png") no-repeat ;
+
+}
